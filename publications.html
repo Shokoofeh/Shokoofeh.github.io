@@ -2,21 +2,100 @@
 <html>
 
 <head>
-    `<meta charset='utf-8'>
+    <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
-    <script src="js/jquery-2.1.4.min.js"></script>
-    <script src="js/bibtex_js-min.js"></script>
-    <title>publications.bib</title> 
+<!--    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bibtex_js-min.js"></script> -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type="text/javascript" src="http://bibtex-js.googlecode.com/svn/trunk/src/bibtex_js.js"></script>
+    <title>publications</title> 
 </head>
 
 <body>
+        <header>
+          <h1> </h1>
+          <h2>Publications</h2>
+        </header>
+<textarea id="bibtex_input" style="display:none;">
 
-<textarea id="bibtex_input" style="display:none;"/>
+@InProceedings {pourmehr:hriws15,
+author = {Pourmehr, Shokoofeh and Wawerla, Jens and Vaughan, Richard and Mori, Greg},
+title = {On the Scalability of Spatially Embedded Human Multi-Robot Interfaces},
+booktitle = {Proc. of 10th ACM/IEEE International Conference on Human-Robot Interaction ({HRI}'15) Workshop on Human-Robot Teaming},
+year = {2015},
+address = {Portland, USA},
+month = {March},
+pdf = {http://bradhayes.info/hri15/papers/6.pdf}
+}
 
+@InProceedings {pourmehr:hrilbr14,
+ Title = {You are Green: a Touch-to-Name Interaction in an Integrated Multi-Modal Multi-Robot HRI System},
+ Booktitle = {Proc. of 9th {ACM}/{IEEE} International Conference on Human-Robot Interaction ({HRI}'14)},
+ year = {2014},
+ month = {March},
+ address = {Bielefeld, Germany},
+ author = {Shokoofeh Pourmehr and Valiallah (Mani) Monajjemi and Seyed Abbas Sadat and Fei Zhan and Jens Wawerla and Greg Mori and Richard Vaughan},
+ url = {http://dl.acm.org/citation.cfm?id=2559806},
+ pdf = {http://www.sfu.ca/~jwawerla/papers/pourmehr14you.pdf}
+ }
+ 
+@InProceedings {pourmher:hripioneers14,
+ Title = {You two, join Green: A Human Multi-Robot Interface for Creating and Commanding Teams of Robots},
+ Booktitle = {Human-Robot Interaction Pioneers Workshop ({HRI}'14)},
+ year = {2014},
+ month = {March},
+ address = {Bielefeld, Germany},
+ author = {Shokoofeh Pourmehr}
+ }
+
+@InProceedings{monajjemi:hrivideo14,
+ author = {Valiallah (Mani) Monajjemi and Shokoofeh Pourmehr and Seyed Abbas Sadat and Fei Zhan and Jens Wawerla and Greg Mori and Richard Vaughan} ,
+ Title = {Integrating Multi-Modal Interfaces to Command {UAV}s},
+ Booktitle = {Proc. of 9th {ACM}/{IEEE} International Conference on Human-Robot Interaction (Video Session) ({HRI}'14)},
+year = {2014},
+url = {http://dl.acm.org/citation.cfm?id=2559646}
+}
+
+@InProceedings{pourmher:iros13,
+  author = {Shokoofeh Pourmehr and Valiallah (Mani) Monajjemi and Richard Vaughan and Greg Mori},
+  title = {You two! Take off! Creating, Modifying and Commanding Groups of Robots Using Face Engagement and Indirect Speech in Voice Commands},
+  booktitle = {Proceedings of the {IEEE} International Conference on Intelligent Robots and Systems ({IROS}'13)},
+  month = {November},
+  year = {2013},
+  address = {Tokyo, Japan},
+  url={http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=6696344&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D6696344},
+  pdf={http://autonomy.cs.sfu.ca/~mori/research/papers/pourmehr-iros13.pdf}
+}
+
+@InProceedings{pourmehr:icra13,
+  author = {Shokoofeh Pourmehr and Valiallah (Mani) Monajjemi and Jens Wawerla and Richard Vaughan and Greg Mori},
+  title = {A Robust Integrated System for Selecting and Commanding Multiple Mobile Robots},
+  booktitle = {Proceedings of the IEEE International Conference on Robotics 
+and Automation ({ICRA}'13)},
+  year = {2013},
+  month = {May},
+  url = {http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6630975},
+  pdf={http://www.cs.sfu.ca/~mori/research/papers/pourmehr-icra13.pdf}
+}
+@InProceedings{pourmehr:robocup11,
+author = {Shokoofeh Pourmehr and Chitra Dadkhah}, 
+booktitle = {RoboCup 2011 - Robot Soccer World Cup XV},
+title = {An Overview on Opponent Modeling in RoboCup Soccer Simulation 2D},
+year = {2011},
+url={http://link.springer.com/chapter/10.1007/978-3-642-32060-6_34}
+}
+@InProceedings{Pourmehr:2008p1271,
+author = {Shokoofeh Pourmehr and Mohammad Bagher Menhaj and Valiallah (Mani) Monajjemi}, 
+booktitle = {Proceeding of International Conference on Automation, Robotics and Control Systems, ARCS-08, Orlando, USA},
+title = {A New Fuzzy Based Approach For RoboCup Small Size Soccer Robots Obstacle Avoidance},
+pages = {17--24},
+year = {2008},
+}
+</textarea>
 <div class="bibtex_template" style="display:none;">
     <p>
       <span>
