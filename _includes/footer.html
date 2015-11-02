@@ -4,3 +4,14 @@
 	{% for js_name in page.extra_js %}
     <script src="/public/js/{{ js_name }}"></script>
     {% endfor %}
+
+    <script>
+        $( document ).ready(function() {            
+            // Pass some parameters
+            $('.js-lazyYT').lazyYT({
+              loading_text: 'Loading ...',
+              display_duration: true,
+              default_ratio: '16:9'
+            });
+        });
+    </script>
