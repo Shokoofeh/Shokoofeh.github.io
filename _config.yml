@@ -6,7 +6,7 @@ relative_permalinks: true
 
 # Setup
 title:               Shokoofeh Pourmehr
-tagline:             ''
+tagline:             'PhD student in Robotics'
 description:         'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
 url:                 http://shokoofeh.me
 baseurl:             ''

@@ -45,6 +45,15 @@ We present a multimodal system for creating, modifying and commanding groups of 
     </div>
 </div> 
 
+<div class="grid grid-pad">
+
+    <div class="col-1-1">
+       <div class="content">
+           <iframe width="560" height="315" src="https://www.youtube.com/embed/heiYPVGFnEM" frameborder="0" allowfullscreen></iframe>
+       </div>
+    </div>
+</div> 
+
 <hr>
 
 ## A Robust integrated system for selecting and commanding multiple mobile robots

@@ -1,0 +1,35 @@
+---
+layout: page
+title: Academic Services
+---
+
+<p>
+	<h3>Student Volunteer</h3>
+	<li>
+		<b>President: </b> Women in Computing Science, Simon Fraser University (2013 - 	2014)
+		</li>
+		<li>
+			<b>Communication Coordinator: </b> Women in Computing Science, Simon Fraser University (2012)
+		</li>
+		 
+
+	
+</p>
+
+<p>
+	<h3>Invited Speaker</h3>
+	<li>
+		<b>Intuitive Interaction with Robots,</b> <a href="http://planningness.com/category/2015-speakers/"> Planning-ness Conference</a>, Toronto, Canada, May 2015
+	</li>
+	<li>
+		<b>Multi-Modal Interfaces for Human-Robot Interaction, </b> CS Colloquium, School of Computing Science, Simon Fraser University, Oct 2015.
+	</li>
+
+</p>
+
+<p>
+	<h3>Organizing Committees</h3>
+	<li>
+		<b>Communication Coordinator: </b><a href="http://www.hripioneers.info/hri15/people.html">HRI Pioneers Workshop</a> at <b>HRI Conference 2015</b>, Portland, USA
+	</li>
+</p>
