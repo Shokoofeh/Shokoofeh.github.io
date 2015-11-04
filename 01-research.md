@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Research
+permalink: research.html
 ---
 
 - [Finding an HRI Partner in a Crowd](#finding-an-hri-partner-in-a-crowd) 

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Academic Services
+permalink: academic-services.html
 ---
 
 <p>
@@ -16,6 +17,8 @@ title: Academic Services
 	
 </p>
 
+<hr>
+
 <p>
 	<h3>Invited Speaker</h3>
 	<li>
@@ -26,6 +29,8 @@ title: Academic Services
 	</li>
 
 </p>
+
+<hr>
 
 <p>
 	<h3>Organizing Committees</h3>
