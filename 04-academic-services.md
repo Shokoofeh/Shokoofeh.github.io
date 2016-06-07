@@ -6,11 +6,14 @@ permalink: academic-services.html
 
 <p>
 	<h3>Student Volunteer</h3>
-	<li>
-		<b>President: </b> Women in Computing Science, Simon Fraser University (2013 - 	2014)
+		<li>
+			<b>Co-Chair: </b> <a href="http://trycatch.cmpt.sfu.ca"> Try/CATCH (Computing and Technology Conference for Her)</a> , Simon Fraser University (2016)
 		</li>
 		<li>
-			<b>Communication Coordinator: </b> Women in Computing Science, Simon Fraser University (2012)
+			<b>President: </b> <a href="http://www.sfu.ca/computing/wics.html">Women in Computing Science (WICS) </a>, Simon Fraser University (2013 - 	2014)
+		</li>
+		<li>
+			<b>Communication Coordinator: </b> Women in Computing Science (WICS), Simon Fraser University (2012)
 		</li>
 		 
 
