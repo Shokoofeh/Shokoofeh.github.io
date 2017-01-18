@@ -4,15 +4,36 @@ title: Research
 permalink: research.html
 ---
 
-- [Finding an HRI Partner in a Crowd](#finding-an-hri-partner-in-a-crowd) 
+- [Finding an Interaction Partner in a Crowd (User Study)](#finding-an-interaction-partner-in-a-crowd-user-study) 
+- [Robust Sensor Fusion for Finding HRI Partners in a Crowd](#robust-sensor-fusion-for-finding-hri-partners-in-a-crowd)
 - [Selecting and Commanding a Subset of a Group of Robots](#selecting-and-commanding-a-subset-of-a-group-of-robots)
 - [A Robust Integrated System for Selecting and Commanding Multiple Mobile Robots](#a-robust-integrated-system-for-selecting-and-commanding-multiple-mobile-robots)
 
-## Finding an HRI partner in a crowd
+## Finding an Interaction Partner in a Crowd (User Study)
 
 ### Summery
 
-We present a probabilistic framework for multimodal information fusion to address the detection of the most promising interaction partner among a group of people, in an uncontrolled environment. To achieve robust operation, the system integrates three multi-modal percepts of humans and regulates robot’ behaviour to approach the location with the highest probability of an engaged human. A series of real-world experiments demon- strates the robustness and practicality of the proposed system for controlling robot’s attention.
+Robots navigating crowded, uncontrolled environments may have to choose the most promising interaction partner among a group of people. This requires a system for measuring interest, identifying attention-seeking signals from an interested party, and approaching them. One solution could be manually controlling the robot and driving it toward someone for close- range one-on-one interaction, however, the user would have to carry a controller and be trained to use it. We propose an alternative autonomous interaction system, which allows any human to start an interaction with a ground mobile robot without instrumentation. For robustness, the system integrates three multimodal human percepts and has the robot approach the point with the highest probability of an interested human, communicating its current state and intention with audio and light feedback. This paper presents a study conducted with our functional and publicly available system and a pool of untrained users to evaluate its performance both objectively and as perceived by participants. We also report on the observation from the users’ natural behavior when asked to “make the robot come to you”. The study compares our system to 1) a teleoperated alternative and 2) an ideal autonomous robot responsive to all human attention-seeking signals. Both qualitative and quantitative results show our system is preferred by 82% of the users, and performs as well or better than its competitor in all measured areas.
+
+### Demo
+
+<div class="grid grid-pad">
+
+    <div class="col-1-1">
+       <div class="content">
+           <iframe width="560" height="315" src="https://www.youtube.com/embed/3cj7v6cq3Vc" frameborder="0" allowfullscreen></iframe>
+       </div>
+    </div>
+
+</div>   
+
+<hr>
+
+## Robust Sensor Fusion for Finding HRI Partners in a Crowd
+
+### Summery
+
+We present a simple probabilistic framework for multimodal sensor fusion that allows a mobile robot to reliably locate and approach the most promising interaction partner among a group of people, in an uncontrolled environment. Our demonstration integrates three complementary sensor modalities, each of which detects features of nearby people. The output is an occupancy grid approximation of a probability density function over the locations of people that are actively seeking interaction with the robot. We show empirically that simply driving towards the peak of this distribution is sufficient to allow the robot to correctly engage an inexperienced user in a crowd of bystanders.
 
 ### Demo
 
